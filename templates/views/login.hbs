@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    {{>navbar}}
+    <h1>Login Page</h1>
+    <div class="container">
+        <form action="/login" method="post">
+            <input type="email" name="email" id="email">
+            <input type="text" name="pass" placeholder="Password">
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
